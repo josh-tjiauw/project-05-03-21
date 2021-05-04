@@ -10,9 +10,11 @@ export default function HomeModal() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
-      </Button>
+      <div className="col-12 d-flex justify-content-center">
+        <Button variant="primary" onClick={handleShow}>
+          Launch demo modal
+        </Button>
+      </div>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
