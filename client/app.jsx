@@ -1,9 +1,17 @@
 import React from 'react';
 import Home from './pages/home';
-import { Router, Route } from 'react-router';
+import About from './pages/about';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import HomeNavbar from './components/navbar';
 
-export default class App extends React.Component {
-  render() {
-    return <Home />;
-  }
+export default function App() {
+  return (
+    <Router>
+      <HomeNavbar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+      </Switch>
+    </Router>
+  );
 }
