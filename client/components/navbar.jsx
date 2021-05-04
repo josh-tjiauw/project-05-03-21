@@ -8,8 +8,8 @@ import FormControl from 'react-bootstrap/FormControl';
 
 export default function HomeNavbar() {
   return (
-    <Navbar bg="light" expand="lg">
-    <Navbar.Brand href="/home">
+    <Navbar bg="dark" expand="lg">
+    <Navbar.Brand href="/home" style={{ fontFamily: 'Lato', color: 'white' }}>
       <img
         src="/cat.png"
         width="30"
