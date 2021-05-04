@@ -4,7 +4,7 @@ import HomeModal from '../components/modal';
 export default function Home(props) {
   return (
     <>
-    asdfeeee
+    <h1>Home Page</h1>
     <HomeModal />
     </>
   );
