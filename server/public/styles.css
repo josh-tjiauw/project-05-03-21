@@ -22,3 +22,11 @@
   background: black;
   padding: 0 0;
 }
+
+.footer {
+  background: #2b945e;
+}
+
+.footer-list {
+  list-style-type: none;
+}
