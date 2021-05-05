@@ -1,38 +1,25 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
 
 export default function HomeNavbar() {
+  const styles = {
+    tab: { color: 'white' }
+  };
   return (
-    <Navbar bg="dark" expand="lg">
-    <Navbar.Brand href="/home" style={{ fontFamily: 'Lato', color: 'white' }}>
-      <img
-        src="/cat.png"
-        width="30"
-        height="30"
-        className="d-inline-block align-top"
-        alt="AmazonDupe Logo"
-      />
-      AmazonDupe
-    </Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="/home">Home</Nav.Link>
-      <Nav.Link href="/about">About</Nav.Link>
-      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-        <NavDropdown.Item href="test">Test</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
-    <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
-    </Form>
-  </Navbar.Collapse>
-</Navbar>
+    <Navbar style={{ background: 'green', display: 'flex', justifyContent: 'center' }} expand="lg">
+      <Navbar.Brand href="/home" style={{}}>
+        <img src="./tastealogo.png" className="d-inline-block align-top" alt="React Bootstrap logo"/>
+      </Navbar.Brand>
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav>
+        <Nav.Link style={styles.tab} href="/menu">MENU</Nav.Link>
+        <Nav.Link style={styles.tab} href="/order">ORDER ONLINE</Nav.Link>
+        <Nav.Link style={styles.tab} href="/shop">SHOP US</Nav.Link>
+        <Nav.Link style={styles.tab} href="/blog">BLOG</Nav.Link>
+        <Nav.Link style={styles.tab} href="/locations">LOCATIONS</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
   );
 }
