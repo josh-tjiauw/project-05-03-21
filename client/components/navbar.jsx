@@ -7,7 +7,7 @@ export default function HomeNavbar() {
     tab: { color: 'white' }
   };
   return (
-    <Navbar style={{ background: 'green', display: 'flex', justifyContent: 'center' }} expand="lg">
+    <Navbar style={{ background: '#2b945e', display: 'flex', justifyContent: 'center' }} expand="lg">
       <Navbar.Brand href="/" style={{}}>
         <img src="./tastealogo.png" className="d-inline-block align-top" alt="React Bootstrap logo"/>
       </Navbar.Brand>

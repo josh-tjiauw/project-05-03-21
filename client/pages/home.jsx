@@ -3,7 +3,7 @@ import React from 'react';
 export default function Home(props) {
   return (
     <>
-    <div className="home container-fluid">
+    <div className="home container-fluid p-0">
       <section className="carousel">
         <div className="row">
           <div className="col-12 d-flex justify-content-center">
@@ -39,14 +39,16 @@ export default function Home(props) {
       </section>
 
       <section>
-        <div className="row mx-auto">
+        <div className="row mx-auto" style={{ textAlign: 'center' }}>
           <h1 className="col-12 d-flex justify-content-center">WHAT IS TASTEA?</h1>
           <h3 className="col-12 d-flex justify-content-center">AN INNOVATIVE &amp; DELICIOUS NEW WAY TO ENJOY SMOOTHIES &amp; TEAS</h3>
-          <p className="col-8 d-flex justify content-center">
+          <div className="col-12 d-flex justify-content-center">
+            <p>
             Since 2001, Tastea has been a shining star for innovative &amp; delicious smoothie <br/>
             and tea drinks. By using high quality premium tea leaves whenever possible, <br/>
             our drinks are not only delicious but responsibly brewed.
           </p>
+          </div>
         </div>
       </section>
     </div>
