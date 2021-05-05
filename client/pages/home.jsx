@@ -1,6 +1,9 @@
 import React from 'react';
 
 export default function Home(props) {
+  const styles = {
+    footerLink: { color: 'white', textDecoration: 'none', margin: '0rem .75rem' }
+  };
   return (
     <>
     <div className="home container-fluid p-0">
@@ -90,33 +93,33 @@ export default function Home(props) {
           <div className="col-9 d-flex justify-content-center">
             <div className="col-3">
               <ul className="footer-list">
-                <li><a href="/">Our Story</a></li>
-                <li><a href="/">Our Premium Pledge</a></li>
-                <li><a href="/">Stories &amp; News</a></li>
+                <li><a style={styles.footerLink} href="/">Our Story</a></li>
+                <li><a style={styles.footerLink} href="/">Our Premium Pledge</a></li>
+                <li><a style={styles.footerLink} href="/">Stories &amp; News</a></li>
               </ul>
             </div>
 
             <div className="col-3">
               <ul className="footer-list">
-                <li><a href="/">Tastea Rewards</a></li>
-                <li><a href="/">Customer Service</a></li>
-                <li><a href="/">Our Menu</a></li>
+                <li><a style={styles.footerLink} href="/">Tastea Rewards</a></li>
+                <li><a style={styles.footerLink} href="/">Customer Service</a></li>
+                <li><a style={styles.footerLink} href="/">Our Menu</a></li>
               </ul>
             </div>
 
             <div className="col-3">
               <ul className="footer-list">
-                <li><a href="/">Our Location</a></li>
-                <li><a href="/">Join Our Team</a></li>
-                <li><a href="/">Franchise with Tastea</a></li>
+                <li><a style={styles.footerLink} href="/">Our Location</a></li>
+                <li><a style={styles.footerLink} href="/">Join Our Team</a></li>
+                <li><a style={styles.footerLink} href="/">Franchise with Tastea</a></li>
               </ul>
             </div>
 
             <div className="col-3">
               <ul className="footer-list">
-                <li><a href="/">Fundraising</a></li>
-                <li><a href="/">Catering</a></li>
-                <li><a href="/">Blog</a></li>
+                <li><a style={styles.footerLink} href="/">Fundraising</a></li>
+                <li><a style={styles.footerLink} href="/">Catering</a></li>
+                <li><a style={styles.footerLink} href="/">Blog</a></li>
               </ul>
             </div>
           </div>
@@ -124,14 +127,16 @@ export default function Home(props) {
 
         <div className="row mx-auto">
           <div className="col-12 d-flex justify-content-center">
-            icon1 icon2
+            <i className="fab fa-facebook"></i><i className="fab fa-instagram"></i>
           </div>
         </div>
 
         <div className="row mx-auto">
           <div className="col-12 d-flex justify-content-center">
             <div className="d-inline">
-              <a href="/">Privacy Statements</a> | <a href="/">Terms of Use</a> | <a href="/">Tastea Rewards</a>
+              <a style={styles.footerLink} href="/">Privacy Statements</a>
+              <a style={styles.footerLink} href="/">Terms of Use</a>
+              <a style={styles.footerLink} href="/">Tastea Rewards</a>
             </div>
           </div>
         </div>
