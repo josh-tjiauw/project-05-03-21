@@ -3,7 +3,22 @@
   color: white;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 .header-text {
   font-family: 'Lato', sans-serif;
   color: black;
+  font-size: 24px;
+}
+
+.home {
+  background-image: url('./home-bg.jpg');
+}
+
+.carousel {
+  width: 100vw;
+  background: black;
+  padding: 0 0;
 }
