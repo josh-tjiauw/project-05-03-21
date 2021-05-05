@@ -8,7 +8,7 @@ export default function HomeNavbar() {
   };
   return (
     <Navbar style={{ background: 'green', display: 'flex', justifyContent: 'center' }} expand="lg">
-      <Navbar.Brand href="/home" style={{}}>
+      <Navbar.Brand href="/" style={{}}>
         <img src="./tastealogo.png" className="d-inline-block align-top" alt="React Bootstrap logo"/>
       </Navbar.Brand>
     <Navbar.Collapse id="basic-navbar-nav">
