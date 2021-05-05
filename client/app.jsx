@@ -7,7 +7,6 @@ import {
   Route
 } from 'react-router-dom';
 import HomeNavbar from './components/navbar';
-import Test from './pages/testPage';
 
 export default function App() {
   return (
@@ -15,10 +14,6 @@ export default function App() {
       <div>
         <HomeNavbar />
         <Switch>
-          <Route path="/test">
-            <Test />
-          </Route>
-
           <Route path="/about">
             <About />
           </Route>
