@@ -16,51 +16,57 @@ export default function Home(props) {
       </section>
 
       <section className="home-links">
-        <div className="row mx-auto">
-          <div className="col">
-            <div className="col-12 d-flex justify-content-center">
+        <div className="row mx-auto d-flex justify-content-center">
+          <div>
+            <div className="col d-flex justify-content-center">
               <img src="store-locations.png" alt="Store Locations"/>
             </div>
-            <div className="col-12 d-flex justify-content-center">
+            <div className="col d-flex justify-content-center">
               <h1 className="header-text">STORE LOCATIONS</h1>
             </div>
           </div>
 
-          <div className="col">
-            <div className="col-12 d-flex justify-content-center">
+          <div>
+            <div className="col d-flex justify-content-center">
               <img src="rewards.png" alt="Tastea Rewards"/>
             </div>
-            <div className="col-12 d-flex justify-content-center">
+            <div className="col d-flex justify-content-center">
               <h1 className="header-text">TASTEA REWARDS</h1>
             </div>
           </div>
 
-          <div className="col">
-            <div className="col-12 d-flex justify-content-center">
+          <div>
+            <div className="col d-flex justify-content-center">
               <img src="careers.png" alt="Careers"/>
             </div>
-            <div className="col-12 d-flex justify-content-center">
+            <div className="col d-flex justify-content-center">
               <h1 className="header-text">CAREERS</h1>
             </div>
           </div>
 
           <div className="w-100"></div>
 
-          <div className="col">
-            <div className="col-12 d-flex justify-content-center"></div>
-            <div className="col-12 d-flex justify-content-center">
+          <div>
+            <div className="col d-flex justify-content-center">
+              <img src="fundraising.png" alt="Fundraising"/>
+            </div>
+            <div className="col d-flex justify-content-center">
               <h1 className="header-text">FUNDRAISING</h1>
             </div>
           </div>
-          <div className="col">
-            <div className="col-12 d-flex justify-content-center"></div>
-            <div className="col-12 d-flex justify-content-center">
+          <div>
+            <div className="col d-flex justify-content-center">
+              <img src="pledge.png" alt="Pledge"/>
+            </div>
+            <div className="col d-flex justify-content-center">
               <h1 className="header-text">PREMIUM PLEDGE</h1>
             </div>
           </div>
-          <div className="col">
-            <div className="col-12 d-flex justify-content-center"></div>
-            <div className="col-12 d-flex justify-content-center">
+          <div>
+            <div className="col d-flex justify-content-center">
+              <img src="franchise.png" alt="Franchise"/>
+            </div>
+            <div className="col d-flex justify-content-center">
               <h1 className="header-text">FRANCHISE</h1>
             </div>
           </div>
