@@ -16,10 +16,10 @@ export default function Home(props) {
       </section>
 
       <section className="home-links">
-        <div className="row mx-auto" style={{ width: '53vw' }}>
+        <div className="row mx-auto">
           <div className="col">
             <div className="col-12 d-flex justify-content-center">
-              <img src="./store-locations.png" alt="Store Locations"/>
+              <img src="store-locations.png" alt="Store Locations"/>
             </div>
             <div className="col-12 d-flex justify-content-center">
               <h1 className="header-text">STORE LOCATIONS</h1>
@@ -28,7 +28,7 @@ export default function Home(props) {
 
           <div className="col">
             <div className="col-12 d-flex justify-content-center">
-              <img src="./rewards.png" alt="Tastea Rewards"/>
+              <img src="rewards.png" alt="Tastea Rewards"/>
             </div>
             <div className="col-12 d-flex justify-content-center">
               <h1 className="header-text">TASTEA REWARDS</h1>
@@ -36,7 +36,9 @@ export default function Home(props) {
           </div>
 
           <div className="col">
-            <div className="col-12 d-flex justify-content-center"></div>
+            <div className="col-12 d-flex justify-content-center">
+              <img src="careers.png" alt="Careers"/>
+            </div>
             <div className="col-12 d-flex justify-content-center">
               <h1 className="header-text">CAREERS</h1>
             </div>
