@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 export default function Home(props) {
   const styles = {
@@ -40,7 +41,7 @@ export default function Home(props) {
               <img src="careers.png" alt="Careers"/>
             </div>
             <div className="col d-flex justify-content-center">
-              <h1 className="header-text">CAREERS</h1>
+              <Button variant="light">CAREERS</Button>
             </div>
           </div>
 
@@ -74,7 +75,7 @@ export default function Home(props) {
       </section>
 
       <section className="what-is-tastea">
-        <div className="row mx-auto" style={{ textAlign: 'center' }}>
+        <div className="row mx-auto" style={{ textAlign: 'center', color: 'white' }}>
           <h1 className="col-12 d-flex justify-content-center">WHAT IS TASTEA?</h1>
           <h3 className="col-12 d-flex justify-content-center">AN INNOVATIVE &amp; DELICIOUS NEW WAY TO ENJOY SMOOTHIES &amp; TEAS</h3>
           <div className="col-12 d-flex justify-content-center">
@@ -88,31 +89,55 @@ export default function Home(props) {
       </section>
 
       <section className="drinks-preview">
-        <div className="row mx-auto">
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
+        <div className="row mx-auto d-flex justify-content-center">
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COs3tKSh6kf/">
+                <img src="insta_img_1.jpg" alt="Happy National Shrimp day! To celebrate TODAY only, 5/10, we&apos;re offering buy one, get one FREE on a Regular size Shrimp On It!!"/>
+              </a>
+
+              <a href="https://www.instagram.com/p/COqamL9hXUf/">
+                <img src="insta_img_2.jpg" alt="Happy Mother&apos;s Day to all the amazing moms and mom-like figures in your life! Treat her to refreshing drinks today"/>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COqamL9hXUf/">
+                <img src="insta_img_2.jpg" alt="Happy Mother&apos;s Day to all the amazing moms and mom-like figures in your life! Treat her to refreshing drinks today"/>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div className="col d-flex justify-content-center">Hello</div>
+          </div>
+          <div>
+            <div className="col d-flex justify-content-center">Hello</div>
+          </div>
+          <div>
+            <div className="col d-flex justify-content-center">Hello</div>
+          </div>
+          <div>
+            <div className="col d-flex justify-content-center">Hello</div>
+          </div>
         </div>
 
         <div className="row mx-auto">
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
         </div>
 
         <div className="row mx-auto">
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
-          <div className="col-2 d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
+          <div className="col d-flex justify-content-center">Hello</div>
         </div>
       </section>
 

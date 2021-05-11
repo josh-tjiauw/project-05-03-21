@@ -10,7 +10,11 @@
 }
 
 .home {
-  /* background-image: url('./home-bg.jpg'); */
+  background-image: url('./home-bg.jpg');
+}
+
+.home-links {
+  background-color: rgb(247, 248, 250);
 }
 
 .carousel {
@@ -26,4 +30,9 @@
 
 .footer-list {
   list-style-type: none;
+}
+
+.drinks-preview {
+  background: #fff;
+  padding: 0;
 }
