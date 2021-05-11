@@ -93,51 +93,151 @@ export default function Home(props) {
           <div>
             <div className="col d-flex justify-content-center">
               <a href="https://www.instagram.com/p/COs3tKSh6kf/">
-                <img src="insta_img_1.jpg" alt="Happy National Shrimp day! To celebrate TODAY only, 5/10, we&apos;re offering buy one, get one FREE on a Regular size Shrimp On It!!"/>
-              </a>
-
-              <a href="https://www.instagram.com/p/COqamL9hXUf/">
-                <img src="insta_img_2.jpg" alt="Happy Mother&apos;s Day to all the amazing moms and mom-like figures in your life! Treat her to refreshing drinks today"/>
+                <img src="insta_img_1.jpg" width="200px" alt="Happy National Shrimp day!"/>
               </a>
             </div>
           </div>
+
           <div>
             <div className="col d-flex justify-content-center">
               <a href="https://www.instagram.com/p/COqamL9hXUf/">
-                <img src="insta_img_2.jpg" alt="Happy Mother&apos;s Day to all the amazing moms and mom-like figures in your life! Treat her to refreshing drinks today"/>
+                <img src="insta_img_2.jpg" width="200px" alt="Happy Mother&apos;s Day!"/>
               </a>
             </div>
           </div>
-          <div>
-            <div className="col d-flex justify-content-center">Hello</div>
-          </div>
-          <div>
-            <div className="col d-flex justify-content-center">Hello</div>
-          </div>
-          <div>
-            <div className="col d-flex justify-content-center">Hello</div>
-          </div>
-          <div>
-            <div className="col d-flex justify-content-center">Hello</div>
-          </div>
-        </div>
 
-        <div className="row mx-auto">
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
-        </div>
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
 
-        <div className="row mx-auto">
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
-          <div className="col d-flex justify-content-center">Hello</div>
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div className="w-100"></div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div className="w-100"></div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
+                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              </a>
+            </div>
+          </div>
+
         </div>
       </section>
 
