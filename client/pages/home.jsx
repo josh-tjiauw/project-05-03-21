@@ -75,11 +75,11 @@ export default function Home(props) {
       </section>
 
       <section className="what-is-tastea">
-        <div className="row mx-auto" style={{ textAlign: 'center', color: 'white' }}>
+        <div className="row mx-auto h-100" style={{ textAlign: 'center', color: 'white' }}>
           <h1 className="col-12 d-flex justify-content-center">WHAT IS TASTEA?</h1>
           <h3 className="col-12 d-flex justify-content-center">AN INNOVATIVE &amp; DELICIOUS NEW WAY TO ENJOY SMOOTHIES &amp; TEAS</h3>
           <div className="col-12 d-flex justify-content-center">
-            <p>
+            <p >
             Since 2001, Tastea has been a shining star for innovative &amp; delicious smoothie <br/>
             and tea drinks. By using high quality premium tea leaves whenever possible, <br/>
             our drinks are not only delicious but responsibly brewed.
@@ -116,74 +116,24 @@ export default function Home(props) {
 
           <div>
             <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              <a href="https://www.instagram.com/p/COit43aBoWN/">
+                <img src="insta_img_4.jpg" width="200px" alt="Boba drinks with snack"/>
               </a>
             </div>
           </div>
 
           <div>
             <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              <a href="https://www.instagram.com/p/COgJHFvBfkv/">
+                <img src="insta_img_5.jpg" width="200px" alt="Boba drinks"/>
               </a>
             </div>
           </div>
 
           <div>
             <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
-              </a>
-            </div>
-          </div>
-
-          <div className="w-100"></div>
-
-          <div>
-            <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              <a href="https://www.instagram.com/p/COdkU7oBUrK/">
+                <img src="insta_img_6.jpg" width="200px" alt="Boba drinks"/>
               </a>
             </div>
           </div>
@@ -192,48 +142,98 @@ export default function Home(props) {
 
           <div>
             <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              <a href="https://www.instagram.com/p/COa40bzhybd/">
+                <img src="insta_img_7.jpg" width="200px" alt="Boba drinks"/>
               </a>
             </div>
           </div>
 
           <div>
             <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              <a href="https://www.instagram.com/p/COV2J8FhRtY/">
+                <img src="insta_img_8.jpg" width="200px" alt="Boba drinks"/>
               </a>
             </div>
           </div>
 
           <div>
             <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              <a href="https://www.instagram.com/p/COTHNAwBm33/">
+                <img src="insta_img_9.jpg" width="200px" alt="Boba drinks"/>
               </a>
             </div>
           </div>
 
           <div>
             <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              <a href="https://www.instagram.com/p/COQshu2B19N/">
+                <img src="insta_img_10.jpg" width="200px" alt="Boba drinks"/>
               </a>
             </div>
           </div>
 
           <div>
             <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              <a href="https://www.instagram.com/p/COOAsO3BM3_/">
+                <img src="insta_img_11.jpg" width="200px" alt="Boba drinks"/>
               </a>
             </div>
           </div>
 
           <div>
             <div className="col d-flex justify-content-center">
-              <a href="https://www.instagram.com/p/COlRVEOBIAi/">
-                <img src="insta_img_3.jpg" width="200px" alt="Mother&apos;s Day is coming up!"/>
+              <a href="https://www.instagram.com/p/COLckgphSJz/">
+                <img src="insta_img_12.jpg" width="200px" alt="Boba drinks"/>
+              </a>
+            </div>
+          </div>
+
+          <div className="w-100"></div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COI-XobBu9h/">
+                <img src="insta_img_13.jpg" width="200px" alt="Boba drinks"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COD0mP4Bkql/">
+                <img src="insta_img_14.jpg" width="200px" alt="Boba drinks"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/COBP2IThTAl/">
+                <img src="insta_img_15.jpg" width="200px" alt="Boba drinks"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/CN-n0JSh3UK/">
+                <img src="insta_img_16.jpg" width="200px" alt="Boba drinks"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/CN7_ycvhYiZ/">
+                <img src="insta_img_17.jpg" width="200px" alt="Boba drinks"/>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="col d-flex justify-content-center">
+              <a href="https://www.instagram.com/p/CN5hPoMhltN/">
+                <img src="insta_img_18.jpg" width="200px" alt="Boba drinks"/>
               </a>
             </div>
           </div>
