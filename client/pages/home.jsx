@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import Carousel from '../components/carousel';
 
 export default function Home(props) {
   const styles = {
@@ -11,7 +12,7 @@ export default function Home(props) {
       <section className="carousel">
         <div className="row">
           <div className="col-12 d-flex justify-content-center">
-            Carousel goes here
+            <Carousel />
           </div>
         </div>
       </section>
