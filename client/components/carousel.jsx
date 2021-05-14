@@ -1,10 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { carouselData } from './carousel-img-data';
 
-const Carousel = () => {
+const Carousel = ({ datas }) => {
+  const [current, setCurrent] = useState(0);
+  const length = datas.length;
+
+  const nextImg = () => {
+    setCurrent(current === length - 1 ? 0 : current++);
+  };
+
+  const prevImg = () => {
+    setCurrent(current === 0 ? length - 1 : current--);
+  };
+  console.log(current);
   return (
     <>
-    <i className="fas fa-chevron-left"></i>
+    asdf
+    <i className="fas fa-chevron-left" onClick={prevImg}></i>
+    <i className="fas fa-chevron-right" onClick={nextImg}></i>
+
+    { carouselData.map((data, index) => {
+      return <img src={data.image} alt='Tastea General Info and New Drinks' className="carousel-image" />;
+    })}
     </>
   );
 };

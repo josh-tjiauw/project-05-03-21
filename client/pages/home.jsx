@@ -1,18 +1,20 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Carousel from '../components/carousel';
+import { carouselData } from '../components/carousel-img-data';
 
 export default function Home(props) {
   const styles = {
     footerLink: { color: 'white', textDecoration: 'none', margin: '0rem .75rem' }
   };
+
   return (
     <>
     <div className="home container-fluid p-0">
       <section className="carousel">
         <div className="row">
           <div className="col-12 d-flex justify-content-center">
-            <Carousel />
+            <Carousel datas={carouselData} />
           </div>
         </div>
       </section>

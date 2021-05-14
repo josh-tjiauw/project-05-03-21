@@ -9,15 +9,16 @@
   font-size: 24px;
 }
 
-.home {
-}
-
 .home-links {
   background-color: rgb(247, 248, 250);
 }
 
 .carousel {
-  background: black;
+  background: #fff;
+}
+
+.carousel-image {
+  width: 100vw;
 }
 
 .footer {
@@ -31,7 +32,7 @@
 
 .drinks-preview  {
   background: #fff;
-  padding: none;
+
 }
 
 .what-is-tastea {
