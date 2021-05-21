@@ -20,7 +20,16 @@ const Carousel = ({ datas }) => {
     <i className="fas fa-chevron-right" onClick={nextImg}></i>
 
     { carouselData.map((data, index) => {
-      return <img src={data.image} alt='Tastea General Info and New Drinks' className="carousel-image" />;
+      return (
+        <div
+            className={index === current ? 'slide active' : 'slide'}
+            key={index}
+          >
+            {index === current && (
+              <img src={data.image} alt='travel image' className='image' />
+            )}
+          </div>
+      );
     })}
     </>
   );
