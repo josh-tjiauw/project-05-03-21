@@ -45,15 +45,15 @@
 
 .slider {
   position: relative;
-  height: 100vh;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .image {
-  width: 1000px;
-  height: 600px;
+  width: 980px;
+  height: 100%;
   border-radius: 10px;
 }
 

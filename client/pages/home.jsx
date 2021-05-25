@@ -11,7 +11,7 @@ export default function Home(props) {
   return (
     <>
     <div className="home container-fluid p-0">
-      <section className="carousel">
+      <section className="slider">
         <div className="row">
           <div className="col-12 d-flex justify-content-center">
             <Carousel datas={carouselData} />
