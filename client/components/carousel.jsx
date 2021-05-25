@@ -16,8 +16,8 @@ const Carousel = ({ datas }) => {
   return (
     <>
     asdf
-    <i className="fas fa-chevron-left" onClick={prevImg}></i>
-    <i className="fas fa-chevron-right" onClick={nextImg}></i>
+    <i className="fas fa-chevron-left left-arrow" onClick={prevImg}></i>
+    <i className="fas fa-chevron-right right-arrow" onClick={nextImg}></i>
 
     { carouselData.map((data, index) => {
       return (
