@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { carouselData } from './carousel-img-data';
 
 const Carousel = ({ datas }) => {
-  const [current, setCurrent] = useState(0);
+  let [current, setCurrent] = useState(0);
   const length = datas.length;
 
   const nextImg = () => {
@@ -12,12 +12,26 @@ const Carousel = ({ datas }) => {
   const prevImg = () => {
     setCurrent(current === 0 ? length - 1 : current--);
   };
-  console.log(current);
+
+  const selectImage = () => {
+    setCurrent(parseInt(event.target.id));
+  };
+
+  if (!Array.isArray(datas) || datas.length <= 0) {
+    return null;
+  }
+
   return (
     <>
-    asdf
     <i className="fas fa-chevron-left left-arrow" onClick={prevImg}></i>
     <i className="fas fa-chevron-right right-arrow" onClick={nextImg}></i>
+    <div className="carousel-nav">
+      <i id="0" className="fas fa-circle dots-nav" onClick={selectImage}></i>
+      <i id="1" className="fas fa-circle dots-nav" onClick={selectImage}></i>
+      <i id="2" className="fas fa-circle dots-nav" onClick={selectImage}></i>
+      <i id="3" className="fas fa-circle dots-nav" onClick={selectImage}></i>
+      <i id="4" className="fas fa-circle dots-nav" onClick={selectImage}></i>
+    </div>
 
     { carouselData.map((data, index) => {
       return (
